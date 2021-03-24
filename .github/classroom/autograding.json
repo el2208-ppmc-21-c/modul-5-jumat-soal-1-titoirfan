@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "1.1.1.1",
+      "output": "Alamat IP 1.1.1.1 bukan alamat IP private.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "172.16.0.0",
+      "output": "Alamat IP 172.16.0.0 adalah alamat IP private.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "192.168.1.12",
+      "output": "Alamat IP 192.168.1.12 adalah alamat IP private.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "192.111.22.33",
+      "output": "Alamat IP 192.111.22.33 bukan alamat IP private.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "10.1.178.192",
+      "output": "Alamat IP 10.1.178.192 adalah alamat IP private.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "178.24.10.200",
+      "output": "Alamat IP 178.24.10.200 bukan alamat IP private.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "10.1.1.1",
+      "output": "Alamat IP 10.1.1.1 adalah alamat IP private.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "178.31.255.255",
+      "output": "Alamat IP 178.31.255.255 bukan alamat IP private.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "172.31.255.255",
+      "output": "Alamat IP 172.31.255.255 adalah alamat IP private.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "192.167.12.12",
+      "output": "Alamat IP 192.167.12.12 bukan alamat IP private.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
